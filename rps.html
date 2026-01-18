@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scisor</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <main class="main">
+
+        <div class="topic">Rock Paper Scisor</div>
+
+        <div class="points">
+            <ul>
+                <li>you will get only 10 chance</li>
+                <li>first turn is your</li>
+                <li>click any one of them rock, paper or scisor</li>
+            </ul>
+        </div>
+
+        <div class="signs">
+            <div class="rock sign">
+                <i class="fa-regular fa-hand-back-fist"></i>
+            </div>
+            <div class="paper sign">
+                <i class="fa-regular fa-hand"></i>
+            </div>
+            <div class="scisor sign">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </div>
+        </div>
+
+        <div class="marks">
+            <span>
+            <p class="choice">Player Choice -:</p>
+            <p class="playerchoice"></p>
+            </span>
+            <span class="marking">
+                <p class="yours">0</p>
+                <p>Player</p>
+            </span>
+            <span class="marking">
+                <p class="comp">0</p>
+                <p>computer</p>
+            </span>
+            <span>
+            <p class="choice">Computer Choice -:</p>
+            <p class="computerchoice"></p>
+            </span>
+        </div>
+
+        <div class="winner"></div>
+
+        <button class="restart">Re-Start</button>
+
+    </main>
+
+    <script src="rps.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(rps.png);
+    background-size: auto;
+}
+
+.topic {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: #3D3D3A;
+    color: #CAC9C6;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.points {
+    position: absolute;
+    height: 55px;
+    width: 350px;
+    text-align: center;
+    color: #898886;
+    background-color: #3D3D3A;
+    font-weight: bold;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: underline;
+    margin-left: 575px;
+}
+
+.signs {
+    height: 175px;
+    width: 100%;
+    position: absolute;
+    margin-top: 175px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 45px;
+    z-index: 20;
+}
+
+.sign {
+    height: 165px;
+    width: 12%;
+    background-color: #595957;
+    border-radius: 59%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5rem;
+}
+
+.sign:hover {
+    border: 15px ridge black;
+    cursor: pointer;
+    background-color: #82827c;
+}
+
+.marks {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 28px;
+    font-size: 1.5rem;
+}
+
+span p {
+    margin: 2px;
+    text-align: center;
+}
+
+span {
+    color: #595957;
+    background-color: black;
+
+}
+
+.yours {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 55%;
+}
+
+.comp {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 85%;
+}
+
+.winner {
+    position: absolute;
+    height: 195px;
+    width: 100%;
+    margin-top: 195px;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.restart {
+    height: 55px;
+    width: 150px;
+    margin-top: 625px;
+    background-color: rgb(80, 76, 76);
+    color: #CAC9C6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 680px;
+    border-style:solid;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.restart:hover {
+    background-color: #72726c;
+}
+
+.choice {
+    background-color: #3D3D3A;
+    color: #CAC9C6;
+}
+
+.playerchoice {
+    margin: 2px;
+    text-align: center;
+}
