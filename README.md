@@ -14,7 +14,7 @@ A simple rock paper scisor game made by using html , css , js that help user to 
 
 *How to Run
 1. Clone the repository
-2. Open index.html in your browser
+2. Open rps.html in your browser
 
 ![screenshot](Screenshot%202026-03-28%20155616.png)
 
